@@ -121,7 +121,7 @@ footer .contact{
 
 
 
-@media only screen and (min-width:332px) and (max-width:768px){
+@media only screen and (min-width:341px) and (max-width:768px){
     .container{
         width: 100%;
         margin: auto;
@@ -137,6 +137,31 @@ footer .contact{
     footer{
         max-width: 1000px;
         padding-left: 120px;
+        justify-content: center;
+    }
+
+    .call-button{
+        padding: 40px 0;
+    }
+}
+
+
+
+@media only screen and (min-width:100px) and (max-width:340px){
+    .container{
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .container .form-container{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        margin: auto;
+        justify-content: center;
     }
 
     .call-button{
