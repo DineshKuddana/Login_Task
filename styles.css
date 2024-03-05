@@ -118,3 +118,28 @@ footer p{
 footer .contact{
     word-spacing: 70px;
 }
+
+
+
+@media only screen and (min-width:332px) and (max-width:768px){
+    .container{
+        width: 100%;
+        margin: auto;
+        padding-right: 150px;
+    }
+    
+    .container .form-container{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        max-width: 1000px;
+        padding-left: 120px;
+    }
+
+    .call-button{
+        padding: 40px 0;
+    }
+}
